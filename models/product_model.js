@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 
-const productschema= mongoose.schema({
+const productschema= mongoose.Schema({
     image:{
         type:String,
         require:true
